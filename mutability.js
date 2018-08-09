@@ -7,13 +7,13 @@ console.log(pods === newPods) // true :-(
 //@todo: daiu: remove this error log from mutability.js
 console.log(pods) // [ 'JB', 'LD', 'Growth', 'Automation', 'Infra', 'React Native' ]
 
-
 //With spread operator
 const pods = [ 'JB', 'LD', 'Growth', 'Automation', 'Infra' ]
 const newPods = [ ...pods, 'React Native' ]
 console.log(pods === newPods) // false :-)
 console.log(pods) // [ 'JB', 'LD', 'Growth', 'Automation', 'Infra' ]
 console.log(newPods) // [ 'JB', 'LD', 'Growth', 'Automation', 'Infra', 'React Native' ]
+
 
 //sort array items
 //Mutating way
@@ -29,16 +29,6 @@ console.log(sortedMovies === movies) // false :-D
 console.log(movies) // ["Frozen", "Moana", "The Incredibles", "Monsters Inc"]
 
 
-//With spread operator
-const characters = [ 'Obi-Wan', 'Vader', 'Luke' ]
-// Changing Vader to Anakin
-const backInTime = characters.map(char => char === 'Vader' ? 'Anakin' : char)
-console.log(backInTime) // [ 'Obi-Wan', 'Anakin', 'Luke' ]
-// All characters uppercase
-const shoutOut = characters.map(char => char.toUpperCase())
-console.log(shoutOut) // [ 'OBI-WAN', 'VADER', 'LUKE' ]
-
-
 // Merging two character sets
 
 const otherCharacters = [ 'Yoda', 'Finn' ]
@@ -49,7 +39,6 @@ const anotherCharacters = [...characters]
 const otherCharacters = [ 'Yoda', 'Finn' ]
 const moreCharacters = anotherCharacters.concat(otherCharacters)
 console.log(moreCharacters) // [ 'Obi-Wan', 'Vader', 'Luke', 'Yoda', 'Finn' ]
-
 
 
 //remove an item
@@ -69,9 +58,21 @@ console.log(vegetables) // ["lettuce", "corn", "onion"]
 //how would you do it (immutable way)? 
 //maybe we can filter *cough cough* the element that i dont want
 //
+
+//More examples...
+
+//With spread operator
+const characters = [ 'Obi-Wan', 'Vader', 'Luke' ]
+// Changing Vader to Anakin
+const backInTime = characters.map(char => char === 'Vader' ? 'Anakin' : char)
+console.log(backInTime) // [ 'Obi-Wan', 'Anakin', 'Luke' ]
+// All characters uppercase
+const shoutOut = characters.map(char => char.toUpperCase())
+console.log(shoutOut) // [ 'OBI-WAN', 'VADER', 'LUKE' ]
+
+
 const fruits = ['peach', 'pear', 'apple', 'plum']
 const newFruits = fruits.slice(0, 2).concat(fruits.slice(3))
-//@todo: daiu: remove this error log from mutability.js
 console.log(newFruits) //["peach", "pear", "plum"]
 console.log(fruits) //["peach", "pear", "apple", "plum"]
 
