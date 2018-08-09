@@ -26,7 +26,7 @@ console.log(movies) // [ "Frozen", "Moana", "Monsters Inc", "The Incredibles"]
 const movies = [ 'Frozen', 'Moana', 'The Incredibles', 'Monsters Inc' ]
 const sortedMovies = movies.slice().sort()
 console.log(sortedMovies === movies) // false :-D
-console.log(movies) // ["Frozen", "Moana", "Monsters Inc", "The Incredibles"]
+console.log(movies) // ["Frozen", "Moana", "The Incredibles", "Monsters Inc"]
 
 
 //With spread operator
@@ -70,7 +70,10 @@ console.log(vegetables) // ["lettuce", "corn", "onion"]
 //maybe we can filter *cough cough* the element that i dont want
 //
 const fruits = ['peach', 'pear', 'apple', 'plum']
-fruits.slice(0, 2).concat(fruits.slice(3))
+const newFruits = fruits.slice(0, 2).concat(fruits.slice(3))
+//@todo: daiu: remove this error log from mutability.js
+console.log(newFruits) //["peach", "pear", "plum"]
+console.log(fruits) //["peach", "pear", "apple", "plum"]
 
 //sources: 
 //https://wecodetheweb.com/2016/02/12/immutable-javascript-using-es6-and-beyond/
