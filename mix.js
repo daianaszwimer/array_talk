@@ -45,13 +45,17 @@ var totalJediScore = jediScores.reduce(function (acc, score) {
   return acc + score;
 }, 0);
 
-
+//
+//
+//
+//
+//
 //lo mejoramos?
-
-
-
-
-
+//
+//
+//
+//
+//
 
 var totalJediScore = personnel
   .filter(function (person) {
@@ -64,11 +68,12 @@ var totalJediScore = personnel
     return acc + score;
   }, 0);
 
+//
+//
+//
+//
+//
 //lo mejoramos?
-//
-//
-//
-//
 //
 //
 //

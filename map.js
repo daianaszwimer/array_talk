@@ -1,14 +1,13 @@
 //map
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 let doubleArray = numbers.map((number)=>{
-    return element * 2;
+    return number * 2;
 });
 
-let names = people.map((person)=>{
-    return person.name;
-});
 
 var str = '12345';
-var newStr = [].map.call(str, function(x) {//o bien Array.prototype.map.call, esta funcion nos transforma el string en array
+var newStr = [].map.call(str, function(x) {//o bien Array.prototype.map.call
+	//esta funcion nos transforma el string en array
   return x;
 }).reverse().join(''); //returns '54321'
 
@@ -23,8 +22,8 @@ let pods = [
 
 //quiero un array de objetos que tenga nombre de pod y nombre de persona
 
-let newPods = pods.map(([podName, name])=>({podName, name}))
-console.log(newPods)
+let people = pods.map(([podName, name])=>({podName, name}))
+console.log(people)
 /*
 0: {podName: "JB", name: "Daiu"}
 1: {podName: "JB", name: "Migue"}
@@ -35,3 +34,7 @@ console.log(newPods)
 length: 6
 __proto__: Array(0)
 */
+
+let names = people.map((person)=>{
+    return person.name;
+});
