@@ -7,3 +7,5 @@
 * [Remove an Array Element Without Mutation](https://jaketrent.com/post/remove-array-element-without-mutating/)
 
 * [Simplify your JavaScript – Use .map(), .reduce(), and .filter()](https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d)
+
+* [Array Map, Filter and Reduce in JS](https://atendesigngroup.com/blog/array-map-filter-and-reduce-js)
