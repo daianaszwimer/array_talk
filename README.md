@@ -1,6 +1,6 @@
 # array_talk.js
 
-### let links_utiles = [
+### export default let links_utiles = [
 
 * [Immutable Javascript using ES6 and beyond](https://wecodetheweb.com/2016/02/12/immutable-javascript-using-es6-and-beyond/) ,
 
