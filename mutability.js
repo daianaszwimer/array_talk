@@ -4,7 +4,6 @@ const pods = [ 'JB', 'LD', 'Growth', 'Automation', 'Infra' ]
 const newPods = pods
 newPods.push('React Native')
 console.log(pods === newPods) // true :-(
-//@todo: daiu: remove this error log from mutability.js
 console.log(pods) // [ 'JB', 'LD', 'Growth', 'Automation', 'Infra', 'React Native' ]
 
 //With spread operator
