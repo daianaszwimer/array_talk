@@ -10,7 +10,10 @@
 
 * [Array Map, Filter and Reduce in JS](https://atendesigngroup.com/blog/array-map-filter-and-reduce-js),
 
-* [JavaScript Array Methods: Mutating vs. Non-Mutating](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/)
+* [JavaScript Array Methods: Mutating vs. Non-Mutating](https://lorenstewart.me/2017/01/22/javascript-array-methods-mutating-vs-non-mutating/),
 
+* [New Array features](http://exploringjs.com/es6/ch_arrays.html),
+
+* [TypedArray](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/TypedArray)
 
 ### ]
