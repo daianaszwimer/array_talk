@@ -16,6 +16,8 @@
 
 * [TypedArray](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/TypedArray),
 
-* [new Array() vs array = []](https://stackoverflow.com/questions/931872/what-s-the-difference-between-array-and-while-declaring-a-javascript-ar/931875#931875)
+* [new Array() vs array = []](https://stackoverflow.com/questions/931872/what-s-the-difference-between-array-and-while-declaring-a-javascript-ar/931875#931875),
+
+* [Array](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array)
 
 ### ]
